@@ -16,6 +16,7 @@ body{
     justify-content: center;
     flex-direction: column;
     margin-top: 250px;
+    height: 150px;
 }
 
 .randomBtn{
@@ -24,18 +25,19 @@ body{
     width: auto;
     height: 60px;
     font-size: 30px;
-    margin-top: 125px;
+    margin-top: 20px;
     /* text-align: center; */
-    font-family: 'Press Start 2P';
+    /* font-family: 'Press Start 2P'; */
     position: static;
 }
 
 /* The names */
 .student{
-    font-family: 'Press Start 2P';
+    /* font-family: 'Press Start 2P'; */
     /* font-size: 50px; */
     color: #5164B8;
-    animation: mymove 5s infinite;
+    height: 50px;
+    /* animation: mymove 5s infinite; */
 }
 
 @keyframes mymove {
@@ -48,18 +50,18 @@ body{
   .pic {
     position: absolute;
     bottom: 0;
-    left: 0;
+    right: 0;
     width: 130px;
-    animation: animate 7s linear infinite;
+    animation: animate 15s linear infinite;
   }
   
   @keyframes animate {
     0% {
-      left: 0;
+      right: 0;
       transform: translate(-100%);
     }
     100% {
-      left: 100%;
+      right: 100%;
       transform: translate(0);
     }
   }
@@ -71,19 +73,8 @@ body{
     left: 0;
     bottom: 0;
     height: 180px;
-    animation: MoveUpDown 2s linear infinite;
   }
   
-  @keyframes MoveUpDown {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-100px);
-    }
-  }
-
-
   /* .bro{
     -webkit-animation: mover 1s infinite  alternate;
     animation: mover 1s infinite  alternate;
