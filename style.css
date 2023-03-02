@@ -6,6 +6,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: 100%;
+    font-family: 'Ubuntu', sans-serif;
     /* height: 100vh; */    
 }
 
@@ -16,28 +17,25 @@ body{
     justify-content: center;
     flex-direction: column;
     margin-top: 250px;
-    height: 150px;
 }
 
 .randomBtn{
-    background-color: #37b1bc00;
+    background-image: url(btn.svg);
+    background-size: cover;
     border: none;
-    width: auto;
+    width: 260px;
     height: 60px;
-    font-size: 30px;
-    margin-top: 20px;
+   
     /* text-align: center; */
-    /* font-family: 'Press Start 2P'; */
+    font-family: 'Press Start 2P';
     position: static;
-}
-
+   }
 /* The names */
 .student{
     /* font-family: 'Press Start 2P'; */
     /* font-size: 50px; */
     color: #5164B8;
-    height: 50px;
-    /* animation: mymove 5s infinite; */
+    animation: mymove 5s infinite;
 }
 
 @keyframes mymove {
